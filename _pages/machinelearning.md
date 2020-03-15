@@ -4,7 +4,7 @@ permalink: /machine-learning/
 title: "Machine Learning by Python ML guide"
 author_profile: true
 header:
-  image: "/images/deep_learning_images/fig_6-5.jpg"
+  image: "/images/deep_learning_images/fig_6-5.png"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
