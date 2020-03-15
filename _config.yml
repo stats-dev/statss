@@ -93,17 +93,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "강호현(HoHyun Kang)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Become a Cognitive NeuroData Scientist."
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "wifilibe@gmail.com"
       # url: mailto:your.name@email.com
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "https://stats-dev.github.io"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -279,3 +279,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: Pages
+    values:
+      layout: single
+      author_profile: true
